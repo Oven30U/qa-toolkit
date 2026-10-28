@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+logs/*
+!logs/.gitkeep
+# Resultados generados (pueden contener datos del cliente)
+output/*
+!output/.gitkeep
+# Excels reales de casos de prueba
+*.xlsx
+
+# Reportes de Power BI personales (pueden incluir datos del cliente)
+assets/powerbi/*.pbix
